@@ -4,25 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="686bf55f-5df3-472b-ba9b-28813d418bbf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Java_EE_6_Java_EE_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/jaxb_api_2_4_0_b180830_0359.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/jaxb_runtime_4_0_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Resources/Dance.xsd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/Dance/DanceComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/Dance/XMLParser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/Parcers/DanceDOMParser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/Parcers/DanceSAXParser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/Parcers/DanceStAXParser.java" afterDir="false" />
-    </list>
+    <list default="true" id="686bf55f-5df3-472b-ba9b-28813d418bbf" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -102,24 +84,45 @@
       <updated>1700564227708</updated>
       <workItem from="1700564228732" duration="2710000" />
       <workItem from="1701289645366" duration="2645000" />
-      <workItem from="1701292499775" duration="5997000" />
+      <workItem from="1701292499775" duration="6293000" />
     </task>
+    <task id="LOCAL-00001" summary="Added Lab2">
+      <option name="closed" value="true" />
+      <created>1701299006540</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1701299006540</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Added Lab2">
+      <option name="closed" value="true" />
+      <created>1701299050425</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1701299050425</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added Lab2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Lab2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/Main.java</url>
-          <line>36</line>
+          <line>51</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/Main.java</url>
-          <line>10</line>
+          <line>11</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
