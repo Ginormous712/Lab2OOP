@@ -1,0 +1,65 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <xs:element name="Dance">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="id" type="IDType"/>
+                <xs:element name="Type" type="DanceTypeEnum"/>
+                <xs:element name="Scene" type="SceneTypeEnum"/>
+                <xs:element name="NumberOfDancers" type="NumberOfDancersEnum"/>
+                <xs:element name="Music" type="MusicTypeEnum"/>
+                <xs:element name="Dancers" type="DancersType"/>
+                <xs:element name="Number" type="xs:integer"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:simpleType name="IDType">
+        <xs:restriction base="xs:string"/>
+    </xs:simpleType>
+
+    <xs:simpleType name="DanceTypeEnum">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="Ballroom"/>
+            <xs:enumeration value="Folk"/>
+            <xs:enumeration value="Stage"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="NumberOfDancersEnum">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="Mass"/>
+            <xs:enumeration value="Solo"/>
+            <xs:enumeration value="Pair"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="SceneTypeEnum">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="ConcertHall"/>
+            <xs:enumeration value="Street"/>
+            <xs:enumeration value="TVStudio"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="MusicTypeEnum">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="Live"/>
+            <xs:enumeration value="Playback"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:complexType name="DancersType">
+        <xs:sequence>
+            <xs:element name="Dancer" type="DancerType" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="DancerType">
+        <xs:sequence>
+            <xs:element name="Name" type="xs:string"/>
+            <xs:element name="Age" type="xs:integer"/>
+        </xs:sequence>
+    </xs:complexType>
+
+</xs:schema>
